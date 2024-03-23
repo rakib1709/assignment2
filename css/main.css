@@ -1,0 +1,276 @@
+/*
+* Name : Mahedavi Rakib 
+* Student Number :8981270
+*
+*/
+
+body {
+    width: 80%;
+    width: 1080px;
+    margin: 20px;
+    padding: 10px;
+    background: orange;
+    font-size: 1rem;
+    color: white;
+
+    
+}
+
+
+
+header {
+    border: 1px solid #020202;
+    border-radius: 5px;
+    padding: 5px;
+    width: 132%;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #93cced,#0b222f);
+
+    
+}
+
+footer {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 1px;
+    width: 132%;
+    text-align: center;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #93cced,#0b222f);
+    color: white;
+    
+
+}
+
+h1,h2{
+    color:black;
+    font-variant:normal;
+position: initial;
+}
+
+footer p {
+    font-size: 19px;
+    color: black;
+    font-size: larger;
+    
+
+    
+}
+p{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+main{
+ float: left;
+ width: 100%;
+ padding: 10px;
+ margin-right: 10px;
+}
+
+aside{
+    border: 1px solid black;
+    position:absolute;
+    top: 220px;
+    right:23px;
+    padding: 1px;
+    margin: 22px;
+    font-weight: bold;
+    background-image: url(images\aside.jpeg);
+        background-size: cover;
+        background-position: center;
+
+}
+
+figcaption{
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+figure{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: medium;
+    color: black;
+
+
+}
+
+ul{
+    list-style: decimal;
+}
+
+aside a:hover { 
+    color: greenyellow;
+   
+    }
+
+.mainimg{
+
+   border: 1px solid black;
+   border-radius: 8px;
+   padding: 5px;
+   width: 200px;
+   height: 200px;
+   float: left;
+
+}
+
+
+.pics{
+    display: grid;
+
+}
+
+
+nav {
+    background-color: rgb(219, 237, 241); 
+    padding: 1px;
+    align-content:center;
+    margin: 20px;
+    width: 132%;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0.625rem;
+    margin: 0px;
+    font-size: larger;
+    color: #f2f2f2;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 167px; 
+}
+
+
+
+nav ul li a:hover {
+    color: darkorange;
+}
+
+
+th,td,table{
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+section,h2{
+
+padding: 15px;
+
+}
+
+
+.abc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.raw1 {
+    flex: 1;
+    height: 15rem;
+    width: 100%;
+    border: 0.2rem solid black;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+}
+
+.raw2 {
+    flex: 1;
+    height: 15rem;
+    width: 100%;
+    border: 0.2rem solid black;
+    object-fit: cover;
+    clip-path: polygon(0 25%, 100% 25%, 100% 75%, 0 75%);
+}
+
+.raw3 {
+    flex: 1;
+    height: 15rem;
+    width: 100%;
+    border: 0.2rem solid black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+
+
+.vid{
+    width: 500px;
+    height: 350px;
+}
+
+form{
+    width: 500px;
+    color: black;
+    padding: 20px;
+    background-color: #a2b1a2;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+ border: 1px solid black;
+ border-radius: 5px;
+ width: 100%;
+ padding: 5px;
+ margin-bottom: 10px;
+
+}
+
+input[type="submit"]{
+    background-color:gray;
+    border: 2px;
+    padding: 0.65rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: sandybrown;
+}
+
+@media  (max-width: 700px) {
+    
+    body {
+        font-size: 3%;
+        padding: 1rem;
+    }
+}
+
+@media  (min-width:1200px) {
+  
+    body {
+        font-size: 1.1rem;
+        padding: 2rem;
+    }
+}
